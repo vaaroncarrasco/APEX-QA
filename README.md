@@ -119,6 +119,8 @@ Of course, having the variables declared in the global scope can be improved. Ma
 I have added a search/ folder with each searchBar.cy.js because just before sending the exercise Cypress is now acting weird :/
 They pass when running each in a single file. I do not know why, I'll do some research on that.
 
+Thought it had something to do with the beforeEach, that's why I created a command to go to /tienda/home
+
 I'll keep the searchBar.cy.js file thoguh
 
 By the way, the home.cy.js is meant to fail in the last assertion
