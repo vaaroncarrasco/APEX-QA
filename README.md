@@ -114,13 +114,8 @@ Of course, having the variables declared in the global scope can be improved. Ma
 
 4. It's limited to web-based apps and websites.
 
-# Side note
+# CODE REFACTOR & FIXED FLAKYNESS
 
-I have added a search/ folder with each searchBar.cy.js because just before sending the exercise Cypress is now acting weird :/
-They pass when running each in a single file. I do not know why, I'll do some research on that.
+Implemented fixtures, commands with params and more!
 
-Thought it had something to do with the beforeEach, that's why I created a command to go to /tienda/home
-
-I'll keep the searchBar.cy.js file thoguh
-
-By the way, the home.cy.js is meant to fail in the last assertion
+Fixed the searchBar test with the test-retry feature.

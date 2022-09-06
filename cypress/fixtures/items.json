@@ -1,0 +1,7 @@
+{
+  "aboveMin": [" ", ".", "a", "1"],
+  "normalValid": ["tenis", "cocina", "cama", "juegos"],
+  "anormalValid": ["saborines", "$/_.-"],
+  "belowMax": ["Refrigerador Dúplex Samsung 22 cúbicos RS22T5561B1"],
+  "max": ["Consola Xbox Series S de 512 GB edicion stand alone"]
+}
