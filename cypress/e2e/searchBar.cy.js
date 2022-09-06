@@ -11,6 +11,8 @@ describe('Testing search bar functionality', () => {
 
   it('Search should alert when no related items are found', () => {
 
+    // Should fail when "  " (double space) is entered as it renders a diff view
+
     cy.searchBarUI(fixtureItems.anormalValid).then(value => {
       cy.get('.o-nullproduct-title-query')
         .should(

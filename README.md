@@ -119,3 +119,7 @@ Of course, having the variables declared in the global scope can be improved. Ma
 Implemented fixtures, commands with params and more!
 
 Fixed the searchBar test with the test-retry feature.
+
+*** Tests failing on purpose ***
+Home -> Typo in href
+SearchBar -> "  " renders a different page
