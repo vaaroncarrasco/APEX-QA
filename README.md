@@ -119,3 +119,12 @@ Of course, having the variables declared in the global scope can be improved. Ma
 Implemented fixtures, commands with params and more!
 
 Fixed the searchBar test with the test-retry feature.
+
+
+      Spec                                              Tests  Passing  Failing  Pending  Skipped
+┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ ✖  home.cy.js                               00:24        1        -        1        -        - │
+├────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ ✔  searchBar.cy.js                          01:00        5        5        -        -        - │
+└────────────────────────────────────────────────────────────────────────────────────────────────┘
+  ✖  1 of 2 failed (50%)                      01:25        6        5        1        -        -
