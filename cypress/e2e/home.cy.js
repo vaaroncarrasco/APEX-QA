@@ -18,14 +18,21 @@ describe('Home loads succesfully', () => {
     // Logo href sends to home and logo src is correct
     cy.get('.a-header__logo')
       .parent()
-      .should('have.attr', 'href', '/tienda/home#!');
+      .should(
+        'have.attr',
+        'href',
+        '/tienda/home#!'
+      );
 
     cy.get('.a-header__logo')
       .should('have.attr', 'src', fixtureLinks.logoUrl);
 
     // Search bar is displayed
     cy.get('#mainSearchbar')
-      .should('have.attr', 'placeholder', 'Buscar...');
+      .should('have.attr',
+        'placeholder',
+        'Buscar...'
+      );
 
     // Navbar user-related links are displayed
     cy.get('.order-lg-3')
@@ -42,7 +49,8 @@ describe('Home loads succesfully', () => {
 
     // Banners
     cy.get('div[id*="bannerNo-"]').each((item) => {
-      cy.get(item).should('be.visible')
+      cy.get(item)
+        .should('be.visible')
     })
 
     // Caroussels
@@ -59,7 +67,12 @@ describe('Home loads succesfully', () => {
         class="icon-<div class="profeco_container"
     */
     cy.get('.a-footer__socialMedia').each((item, index) => {
-      cy.get(item).should('have.attr', 'href', fixtureLinks.socialUrls[index])
+      cy.get(item)
+        .should(
+          'have.attr',
+          'href',
+          fixtureLinks.socialUrls[index]
+        )
     })
 
   })

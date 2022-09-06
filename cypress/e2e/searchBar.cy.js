@@ -43,8 +43,11 @@ describe('Testing search bar functionality', () => {
   it('Search bar is disabled on min and aboveMin values', () => {
 
     // Empty search bar -> min value = ""
-    cy.get('.input-group-text > .icon-zoom').click();
-    cy.location('pathname').should('eq', '/tienda/home');
+    cy.get('.input-group-text > .icon-zoom')
+      .click();
+
+    cy.location('pathname')
+      .should('eq', '/tienda/home');
 
     cy.get('#mainSearchbar')
       .focus()
