@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:chrome": "cypress run --spec cypress/e2e --browser chrome",
-    "cypress:firefox": "cypress run --spec cypress/e2e --browser firefox",
-    "cypress:edge": "cypress run --spec cypress/e2e --browser edge"
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run --spec cypress/e2e --browser chrome",
+    "cy:firefox": "cypress run --spec cypress/e2e --browser firefox",
+    "cy:edge": "cypress run --spec cypress/e2e --browser edge"
   },
   "keywords": [],
   "author": "",
