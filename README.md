@@ -100,5 +100,5 @@ Implemented fixtures, commands with params and more!
 Fixed the searchBar test with the test-retry feature.
 
 ## Tests failing on purpose
-Home -> Typo in href
-SearchBar -> double space input renders a different page
+1. Home:Typo in href
+2. SearchBar: double space input renders a different page
